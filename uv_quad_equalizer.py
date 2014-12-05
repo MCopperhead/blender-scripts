@@ -4,7 +4,10 @@ bl_info = {
     "version": (1, 1),
     "blender": (2, 62, 0),
     "warning": "", 
-    "category": "Mesh"}
+    "category": "Mesh",
+    #TODO: translate description to English and add details to the README file.
+    "description": "Выравнивает по вертикали и горизонтали выделенный в UV развёртке фейс,"
+                   " и потом выполняет Follow Active Quads"}
 
 import bpy
 from bpy.props import *

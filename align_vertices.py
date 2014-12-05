@@ -4,7 +4,9 @@ bl_info = {
     "version": (1, 0),
     "blender": (2, 62, 0),
     "warning": "",
-    "category": "Mesh"}
+    "category": "Mesh",
+    #TODO: translate description to English and add details to the README file.
+    "description": "В 3D View выравнивает выделенный ряд вершин по крайним вершинам." }
 
 import bpy
 from mathutils import Euler

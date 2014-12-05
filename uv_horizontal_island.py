@@ -4,7 +4,9 @@ bl_info = {
     "version": (1, 1),
     "blender": (2, 62, 0),
     "warning": "", 
-    "category": "Mesh"}
+    "category": "Mesh",
+    #TODO: translate description to English and add details to the README file.
+    "description": "Поворачивает остров в UV развёртке на такой угол, чтобы выделенное ребро стало горизонтальным." }
 
 import bpy
 from bpy.props import *
